@@ -1,0 +1,41 @@
+/include/ "system-conf.dtsi"
+/ {
+    compatible = "xlnx,zynq-7000";
+
+    chosen {
+        xlnx,eeprom = &eeprom;
+    };
+
+    usb_phy0: phy0 {
+        #phy-cells = <0>;
+        compatible = "usb-nop-xceiv";
+    };
+};
+
+&amba {
+    /delete-node/ ptm@f889d000;
+
+    funnel@f8804000 {
+        in-ports {
+            /delete-node/ port@1 ;
+        };
+    };
+};
+
+&i2c1 {
+    status = "okay";
+    clock-frequency = <400000>;
+    
+    eeprom: eeprom@57 {
+        compatible = "i2c-eeprom";
+	size = <256>;
+    	pagesize=<16>;
+        reg = <0x57>;
+    };
+};
+
+&usb0 {    
+    status = "okay";
+    dr_mode = "host";
+    usb-phy = <&usb_phy0>;
+};

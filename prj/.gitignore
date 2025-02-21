@@ -1,0 +1,4 @@
+*
+!.gitignore
+!project.tcl
+!build_project.sh
