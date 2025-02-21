@@ -9,12 +9,11 @@
 * ENET (static MAC address, read from I2C-EEPROM during boot)
 * USB 
 
-### Build instructions:
-
+### Build instructions
 Idem to [Pynq-Redpitaya-125](https://github.com/dspsandbox/Pynq-Redpitaya-125)
 
-### Prebuilt SD card image (PYNQ 3.0.1):
-Download link: [brain-1-3.0.1.img](https://drive.google.com/file/d/1duGko8uhv1DI6xE9HKY4kBQSg6Nn-2yp/view?usp=sharing)
+### Prebuilt SD card image 
+[brain-1-3.0.1.img](https://drive.google.com/file/d/1duGko8uhv1DI6xE9HKY4kBQSg6Nn-2yp/view?usp=sharing)
 
 
 ### Getting started
