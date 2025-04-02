@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
-<board schema_version="2.0"  vendor="opalkelly.com" name="Opal Kelly Brain-1" display_name="Opal Kelly Brain-1" preset_file="preset.xml" >
+<board schema_version="2.0"  vendor="opalkelly.com" name="Opal-Kelly-Brain-1" display_name="Opal-Kelly-Brain-1" preset_file="preset.xml" >
  <file_version>1.0</file_version>
- <description>Opal Kelly Brain-1</description>
+ <description>Opal-Kelly-Brain-1</description>
  <components>
-   <component name="part0" display_name="Opal Kelly Brain-1" type="fpga" part_name="xc7z012sclg485-1" vendor="xilinx.com">
+   <component name="part0" display_name="Opal-Kelly-Brain-1" type="fpga" part_name="xc7z012sclg485-1" vendor="xilinx.com">
      <interfaces>
        <interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
        </interface>
